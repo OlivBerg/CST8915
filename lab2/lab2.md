@@ -12,10 +12,7 @@ FYI, I did not commit any of the .env file because its bad practice. That is why
 
 #### What changes did you make to the order-service and product-service to comply with the Configurations and Backing Services factors of the 12-Factor App methodology?
 
-- Codebase #1: One codebase tracked in revision control, many deploys
-- Dependencies #2 : Explicitly declare and isolate dependencies
-- Config #3 : Store config in the environment
-- Backing services #4 : Treat backing services as attached resources
+We Stored the configs (.env) files in the local setup for each service and for the backing services we created a vm for only the message manager RabbitMQ. We then connected the order-service to RabbitMQ to Product-Services via an API which the creds are stored in a .env file.
 
 [Resourced used](https://12factor.net/)
 
