@@ -10,13 +10,13 @@ A docker image is a read-only template/blueprint that is used to create a contai
 
 The layered architecture significantly improves effeciency through several mechinism:
 
-1. Storage Efficiency and Minimization
+1. Shared Layers
 
 2. Faster Deployment and Downloads
 
 3. Caching for Faster Builds
 
-4. Consistency and Isolation via Writable Layer
+4. Immutability and Writable Layer
 
 ## Why does each container get its own writable layer?
 
