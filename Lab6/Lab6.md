@@ -1,3 +1,3 @@
 # Lab 6
 
-[youtube]()
+[youtube](https://youtu.be/VNbeo2RGNwo)
